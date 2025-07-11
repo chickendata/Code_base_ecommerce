@@ -1,4 +1,8 @@
 import { Product } from "@/interface/Product";
+import wirelessImg from '@/assets/wireless_headphone.jpg'
+import watchImg from '@/assets/smart_watch.jpg'
+import backpackImg from '@/assets/backpack.jpg'
+import speakerImg from '@/assets/speaker.jpg'
 
 export const product: Product[] = [
   {
@@ -7,7 +11,7 @@ export const product: Product[] = [
     originalPrice: 129.99,
     rating: 4.8,
     reviews: 124,
-    image: "/placeholder.svg?height=400&width=400",
+    image: wirelessImg,
   },
   {
     name: "Smart Watch",
@@ -15,7 +19,7 @@ export const product: Product[] = [
     originalPrice: 249.99,
     rating: 4.6,
     reviews: 89,
-    image: "/placeholder.svg?height=400&width=400",
+    image: watchImg,
   },
   {
     name: "Laptop Backpack",
@@ -23,7 +27,7 @@ export const product: Product[] = [
     originalPrice: 69.99,
     rating: 4.9,
     reviews: 203,
-    image: "/placeholder.svg?height=400&width=400",
+    image: backpackImg,
   },
   {
     name: "Bluetooth Speaker",
@@ -31,6 +35,6 @@ export const product: Product[] = [
     originalPrice: 99.99,
     rating: 4.7,
     reviews: 156,
-    image: "/placeholder.svg?height=400&width=400",
+    image: speakerImg,
   },
 ];
